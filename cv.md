@@ -33,17 +33,6 @@ I don't have any working experience in the IT sphere, but i'm hungry for knowled
 
 *******
 
-### SKILLS
-
-* **HTML5**
-* **CSS3**
-* **JavaScript basics**
-* **Adobe Photoshop**
-* **Git**
-* **VS Code**
-
-*******
-
 ### CODE EXAMPLE
 
 *A function that takes a string and returns a string with capitalized first letters of words*
@@ -68,3 +57,22 @@ function camelize (str) {
 ```
 
 *******
+
+### WORKING EXPERIENCE
+
+[project on github](https://nikolaykovzik.github.io/rsschool-cv/cv)
+
+*******
+
+### EDUCATION 
+
+* Belarussian State University of Informatics and Radioelectronics, Calculating Machines System and Networks faculty, fifth course of study
+* HTML Academy trainings
+* RS Schools Course «JavaScript/Front-end Stage 0» (in progress)
+
+*******
+
+### LANGUAGES
+
+* English - B1
+* Russian - native
