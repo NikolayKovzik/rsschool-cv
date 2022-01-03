@@ -5,7 +5,7 @@
 body {
     overflow: auto;
     max-width: 1024px;
-    min-width: 600px;
+    min-width: 20%;
     min-height: 100vh;
     margin: auto;
     display: flex;
@@ -26,7 +26,7 @@ body {
   header {
     display: flex;
     flex-direction: column;
-    flex-wrap:nowrap;
+    flex-wrap: nowrap;
     background: rgb(29, 134, 103);
     min-height: 20vh;
     align-items: space-around;
@@ -35,7 +35,6 @@ body {
   .container-header {
     display: flex;
     flex-wrap: nowrap;
-    background: rgb(29, 134, 103);
     align-items: center;
     justify-content:center;
   }
@@ -66,20 +65,68 @@ body {
     border-radius: 50%;
   }
 
-
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
   section {
     flex-basis: 50%;
   }
 
-  .about {
+  #about-myself {
     background:rgb(50, 185, 145);
   }
 
 
-  .description {
+  #contacts {
     background:rgb(58, 168, 135);
   }
+
+  #skills {
+    flex-basis: 50%;
+    background:rgb(58, 168, 135);
+  }
+
+  #education {
+    flex-basis: 50%;
+    background:rgb(50, 185, 145);
+  }
+
+  #english {
+    flex-basis: 50%;
+    background:rgb(50, 185, 145);
+  }
+
+  #project {
+    flex-basis: 50%;
+    background:rgb(58, 168, 135);
+  }
+
+  #code-example {
+    flex-basis: 100%;
+    background:rgb(68, 204, 163);
+  }
+
+  #about-myself p {
+    padding: 0px 30px 30px 30px;
+  }
+
+  #about-myself h2,
+  #contacts h2,
+  #skills h2,
+  #education h2,
+  #code-example h2,
+  #english h2,
+  #project h2 {
+    padding: 10px;
+    text-align: center;
+  }
+
+
+
+
+
 
 
  
