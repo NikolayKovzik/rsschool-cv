@@ -67,6 +67,13 @@ body {
 
   main {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow:auto;
+  }
+
+  .section-container {
+    display: flex;
     flex-wrap: wrap;
   }
 
@@ -93,7 +100,7 @@ body {
     background:rgb(50, 185, 145);
   }
 
-  #english {
+  #languages {
     flex-basis: 50%;
     background:rgb(50, 185, 145);
   }
@@ -116,11 +123,25 @@ body {
   #contacts h2,
   #skills h2,
   #education h2,
-  #code-example h2,
-  #english h2,
+  #languages h2,
   #project h2 {
     padding: 10px;
     text-align: center;
+  }
+
+  .code-header {
+    background:rgb(68, 204, 163);
+    text-align: center;
+  }
+
+  pre {
+    color: rgb(38, 10, 88);
+    font: sans-serif; 
+  }
+
+  .languages-list {
+    text-align: center;
+    list-style-type: none;
   }
 
 
