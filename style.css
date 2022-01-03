@@ -119,6 +119,15 @@ body {
     padding: 0px 30px 30px 30px;
   }
 
+  #education p {
+    padding: 30px 30px 30px 30px;
+  }
+
+  #project p {
+    text-align: center;
+  }
+
+
   #about-myself h2,
   #contacts h2,
   #skills h2,
@@ -139,23 +148,32 @@ body {
     font: sans-serif; 
   }
 
-  .languages-list {
-    text-align: center;
+  .languages-list,
+  .skills-list {
+    text-align:justify;
     list-style-type: none;
   }
 
 
-
-
-
-
-
- 
-
   footer {
     background: rgb(29, 134, 103);
-    
+    display: flex;
     min-height: 20vh;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
   }
+
+  .year {
+    font: normal normal bold 24px none;
+  }
+
+
+
+
+
+
+
+
+
+
+
