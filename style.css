@@ -3,9 +3,9 @@
 }
 
 body {
-    overflow: auto;
+    
     max-width: 1024px;
-    min-width: 20%;
+    
     min-height: 100vh;
     margin: auto;
     display: flex;
