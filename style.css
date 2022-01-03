@@ -3,9 +3,10 @@
 }
 
 body {
+    overflow: auto;
     max-width: 1024px;
     min-width: 600px;
-    min-height: 600px;
+    min-height: 100vh;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -21,27 +22,42 @@ body {
     min-height: 70vh;
   }
 
-  section, aside {
-    flex-basis: 33.33vw;
+  header {
+    display: flex;
+    flex-wrap:nowrap;
+    background: rgb(29, 134, 103);
+    min-height: 20vh;
+
+    
+    align-items: center;
   }
+
+  img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+  }
+
+  section {
+    flex-basis: 50%;
+  }
+
+  .about {
+    background:rgb(50, 185, 145);
+  }
+
 
   .description {
     background:rgb(58, 168, 135);
   }
 
 
-  header {
-    background: rgb(29, 134, 103);
-    height: 20vh;
-
-    justify-content: space-around;
-    align-items: center;
-  }
+ 
 
   footer {
     background: rgb(29, 134, 103);
-    height: 10vh;
-
+    
+    min-height: 20vh;
     justify-content: space-around;
     align-items: center;
   }
