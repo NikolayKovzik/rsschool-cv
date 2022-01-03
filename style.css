@@ -1,7 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
+    
+    max-width: 1024px;
+    
+    min-height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
     padding: 0px;
     font-size: 16px;
-    line-height: 26px;
-    font-family: "Arial", sans-serif;
-  
+    line-height: 20px;
+    font-family: monospace;
+    background: rgb(12, 80, 100);
+    background-image: url(img/background.jpg);
   }
+
+  main {
+    display: flex;
+    min-height: 70vh;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background: rgb(29, 134, 103);
+    min-height: 20vh;
+    align-items: space-around;
+  }
+
+  .container-header {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content:center;
+  }
+
+  .navigation {
+    font: Avantgarde;
+  }
+
+  .page-navigation {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+
+  .page-navigation-item {
+    list-style-type: none;
+  }
+
+  a:link, a:visited, a:active {
+    color: black; 
+  }
+
+  img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow:auto;
+  }
+
+  .section-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  section {
+    flex-basis: 50%;
+  }
+
+  #about-myself {
+    background:rgb(50, 185, 145);
+  }
+
+
+  #contacts {
+    background:rgb(58, 168, 135);
+  }
+
+  #skills {
+    flex-basis: 50%;
+    background:rgb(58, 168, 135);
+  }
+
+  #education {
+    flex-basis: 50%;
+    background:rgb(50, 185, 145);
+  }
+
+  #languages {
+    flex-basis: 50%;
+    background:rgb(50, 185, 145);
+  }
+
+  #project {
+    flex-basis: 50%;
+    background:rgb(58, 168, 135);
+  }
+
+  #code-example {
+    flex-basis: 100%;
+    background:rgb(68, 204, 163);
+  }
+
+  #about-myself p {
+    padding: 0px 30px 30px 30px;
+  }
+
+  #education p {
+    padding: 30px 30px 30px 30px;
+  }
+
+  #project p {
+    text-align: center;
+  }
+
+
+  #about-myself h2,
+  #contacts h2,
+  #skills h2,
+  #education h2,
+  #languages h2,
+  #project h2 {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .code-header {
+    background:rgb(68, 204, 163);
+    text-align: center;
+  }
+
+  pre {
+    color: rgb(38, 10, 88);
+    font: sans-serif; 
+  }
+
+  .languages-list,
+  .skills-list {
+    text-align:justify;
+    list-style-type: none;
+  }
+
+
+  footer {
+    background: rgb(29, 134, 103);
+    display: flex;
+    min-height: 20vh;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .year {
+    font: normal normal bold 24px none;
+  }
+
+
+
+
+
+
+
+
+
+
+
