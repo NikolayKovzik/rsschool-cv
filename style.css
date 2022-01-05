@@ -5,11 +5,7 @@
 body {
     
     max-width: 1024px;
-    border: 3px solid rgb(110, 0, 0);
-  /*min-height: 100vh;*/
     margin: auto;
-   /* display: flex;*/
-   /* flex-direction: column;*/
     padding: 0px;
     font-size: 16px;
     line-height: 20px;
@@ -60,8 +56,9 @@ body {
   .page-navigation {
     list-style-type: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     
   }
 
@@ -182,8 +179,9 @@ body {
 
   footer {
     background: rgb(29, 136, 127);
+    padding-top: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
   }
 
