@@ -62,14 +62,53 @@ body {
     
   }
 
-  .page-navigation-item {
-    list-style-type: none;
-  }
-
   a:link, a:visited, a:active {
     color: black; 
   }
 
+  .contacts-list {
+    line-height: 35px;
+  }
+
+
+  .github,
+  .mail,
+  .phone,
+  .discord {
+    position: relative;
+  }
+
+    .github::before,
+    .mail::before,
+    .phone::before,
+    .discord::before {
+      position: absolute;
+      content: "";
+      width: 32px;
+      height: 32px;
+      left: 90px;
+  }
+
+
+  .github::before {
+    background-image: url(img/github.png);
+    
+  }
+
+  .mail::before {
+    background-image: url(img/mail.png);
+  }
+
+  .phone::before {
+    background-image: url(img/number.png);
+  }
+    
+  .discord::before {
+    background-image: url(img/dis.png);
+
+  }
+
+  
   img {
     width: 75px;
     height: 75px;
@@ -191,11 +230,4 @@ body {
 
 
 
-
-
-
-
-
-
-
-
+  
