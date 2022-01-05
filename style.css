@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    
+    max-width: 1024px;
+    margin: auto;
+    padding: 0px;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: monospace;
+    background: rgb(12, 80, 100);
+    background-image: url(img/background.jpg);
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+  section {
+    flex-basis: 40%;
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  @media  screen and (max-width: 700px) {
+      main {
+      flex-direction: column;
+    }
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background: rgb(29, 136, 127);
+    
+    align-items: space-around;
+    font-size: 16px;
+  }
+
+  .container-header {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content:center;
+  }
+
+  .navigation {
+    font: Avantgarde;
+  }
+
+  .page-navigation {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+  }
+
+  a:link, a:visited, a:active {
+    color: black; 
+  }
+
+  .contacts-list {
+    line-height: 35px;
+  }
+
+
+  .github,
+  .mail,
+  .phone,
+  .discord {
+    position: relative;
+  }
+
+    .github::before,
+    .mail::before,
+    .phone::before,
+    .discord::before {
+      position: absolute;
+      content: "";
+      width: 32px;
+      height: 32px;
+      left: 10px;
+  }
+
+
+  .github::before {
+    background-image: url(img/github.png);
+    
+  }
+
+  .mail::before {
+    background-image: url(img/mail.png);
+  }
+
+  .phone::before {
+    background-image: url(img/number.png);
+  }
+    
+  .discord::before {
+    background-image: url(img/dis.png);
+
+  }
+
+  
+  img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+  }
+
+
+  #about-myself {
+    background:#3dc29a;
+  }
+
+
+  #contacts {
+    background:#22c292;
+  }
+  #hard-skills {
+    background:#18ce97;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  #education {
+    background:#25d8a2;
+  }
+
+  #languages {    
+    background:#22c292;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  #soft-skills {
+    background: rgb(68, 204, 163);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  #code-example {
+   
+    flex-basis: 50%;
+    background:rgb(68, 204, 163);
+  }
+
+  #project {
+    background:  #2bb88d;
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  #about-myself p {
+    padding: 0px 30px 30px 30px;
+  }
+
+  #education p {
+    padding: 30px 30px 30px 30px;
+  }
+
+  
+
+
+  #about-myself h2,
+  #contacts h2,
+  #hard-skills h2,
+  #soft-skills h2,
+  #education h2,
+  #languages h2,
+  #project h2 {
+    padding: 10px;
+
+  }
+
+  pre {
+    width: 100%;
+    white-space: normal;
+    display: flex;
+    justify-content: left;
+  }
+
+  pre code{
+    color: rgb(38, 10, 88);
+    font: sans-serif; 
+    text-align:justify;
+    white-space: pre-wrap;  
+    
+    
+    white-space: -moz-pre-wrap;  
+    white-space: -pre-wrap;      
+    white-space: -o-pre-wrap;    
+    word-wrap: break-word;  
+  }
+
+  .languages-list,
+  .skills-list,
+  .contacts-list {
+    list-style-type: none;
+  }
+
+
+  footer {
+    background: rgb(29, 136, 127);
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .year {
+    font: normal normal bold 24px none;
+  }
+
+
+
+  

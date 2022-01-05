@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Nikolay Kovzik CV</title>
+  
+
+</head>
+
+<body>  
+        <header>
+          <nav class="navigation">
+            <ul class="page-navigation">
+                <li><a  href="#about-myself">About&nbsp;Myself</a>&nbsp;</li>
+                <li><a  href="#contacts">Contacts</a>&nbsp;</li>
+                <li><a  href="#hard-skills">Skills</a>&nbsp;</li>
+                <li><a  href="#education">Education</a>&nbsp;</li>
+                <li><a  href="#languages">English</a>&nbsp;</li>
+                <li><a  href="#code-example">Code</a>&nbsp;</li>
+                <li><a  href="#project">Projects</a></li>
+            </ul>
+          </nav>
+          <div class = "container-header">
+              <figure class="myPhoto">
+                <img src="img/1.jpeg" alt="Nikolay Kovzik"/>
+              </figure>
+              <div class="container-initials">
+                  <h1>Nikolay Kovzik</h1>
+                  <p>Front-end developer</p>
+              </div>
+          </div>
+        </header>
+
+        <main>
+          
+              <section id="about-myself"> 
+                  <h2>&nbsp;&nbsp;&nbsp;About myself</h2>
+                  <p>My name is Nikolay. I am 25 years old. I study by correspondence at the Belarusian State University of Informatics and Radioelectronics.
+                    My speciality is calculating machines, systems and networks.
+                    I don’t have any working experience in the IT sphere, but i’m hungry for knowledge and new experience and have a massive desire to fill in this gap.
+                    In some situations my perfectionism seems excessive, but i'm trying to cope with it.
+                </p>
+              </section>
+              
+              <section id="contacts"> 
+                <h2>&nbsp;&nbsp;&nbsp;Contacts</h2>
+                  <ul class="contacts-list">
+                    <li class="github">
+                      <a href="https://github.com/NikolayKovzik" title="github">
+                        NikolayKovzik
+                      </a>
+                    </li>
+                    <li class="mail">
+                      <a href="mailto:nikolaykovzik@gmail.com" title="email">
+                        nikolaykovzik@gmail.com
+                      </a>
+                    </li>
+                    <li class="phone">
+                      +375445012347
+                    </li>
+                    <li class="discord">
+                      theroofisonfire#1523
+                    </li>
+                  </ul>
+              </section>
+             
+              <section id="hard-skills"> 
+                  <h2>&nbsp;&nbsp;&nbsp;Hard-Skills</h2>
+                  <ul class="skills-list">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript basics</li>
+                    <li>Adobe Photoshop</li>
+                    <li>VS Code</li>
+                    <li>Git</li>
+                  </ul>
+              </section>
+
+              <section id="soft-skills">
+                <h2>&nbsp;&nbsp;&nbsp;Soft-Skills</h2>
+                <ul class="skills-list">
+                  <li>Perseverance</li>
+                  <li>Teamwork</li>
+                  <li>Work Ethic</li>
+                  <li>Lernability</li>
+                  <li>Desire to learn</li>
+                  <li>Research</li>
+                </ul>
+            </section>
+              
+              <section id="education"> 
+                  <h2>Education</h2>
+                  <p class="education-list">
+                    Belarusian State University of Informatics and Radioelectronics, Calculating Machines System and Networks faculty, fifth course of study.
+                    HTML Academy trainings
+                    RS Schools Course «JavaScript/Front-end Stage 0» (in progress)
+                  </p>
+              </section>
+             
+              <section id="languages"> 
+                  <h2>&nbsp;&nbsp;&nbsp;Languages</h2>
+                  <ul class="languages-list">
+                    <li>English - B1</li>
+                    <li>Russian - Native Speaker</li>
+                  </ul>
+              </section>
+              
+
+              <section id="code-example"> 
+                <h2 class="code-header">Code Example</h2>
+              <pre><code>
+  function camelize (str) {
+    let arrWithoutDash = str.split("-");
+    
+    arrWithoutDash.forEach((item,index,array)=> {
+      if(index !== 0 && item!=='') {
+          array[index] = array[index][0].toUpperCase(); 
+          array[index] += array[index].slice(1);
+      }
+    });
+    
+    let result = arrWithoutDash.filter((item)=>{
+      if(item === "")
+        return false;
+        else return true;
+    });
+    return result.join('');
+    }
+          </code></pre>
+                  </section> 
+
+                  <section id="project">
+                    <h2>Project</h2>
+                    <p><a href="https://nikolaykovzik.github.io/rsschool-cv/">CV</a></p>
+                </section>
+                </main>
+
+            <footer>
+                <a href="https://github.com/NikolayKovzik"><img src="img/git.png" alt="git"></a>
+                <a href="https://rs.school/"><img src="img/rs.svg" alt="rs"></a>
+                <span class="year">©&nbsp;2022</span>
+            </footer>  
+ </body>
+</html>
