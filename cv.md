@@ -16,9 +16,9 @@
 
 ### ABOUT MYSELF
 
-My name is Nikolay. I am 25 years  old. I study by correspondence at the Belarusian State University of Informatics and Radioelectronics. My speciality is calculating machines, systems and networks.
+My name is Nikolay. I am 25 years  old. I'm a patient, ambitious and hardworking person, hungry for knowledge and new achievements. 
+I don't have any working experience in the information technology sphere, but i have a massive desire to fill in this gap. My goal is to find my first job in IT and develop as a professional.
 
-I don't have any working experience in the IT sphere, but i'm hungry for knowledge and new experience and have a massive desire to fill in this gap.
 
 *******
 
@@ -27,7 +27,7 @@ I don't have any working experience in the IT sphere, but i'm hungry for knowled
 * **HTML5**
 * **CSS3**
 * **JavaScript basics**
-* **Adobe Photoshop**
+* **Figma**
 * **Git**
 * **VS Code**
 
@@ -39,17 +39,16 @@ I don't have any working experience in the IT sphere, but i'm hungry for knowled
 
 ```
 
-function camelize (str) {
- let arrWithoutDash = str.split("-");
+function sortByBit(arr) {
+    let bitForm = {};
+    arr.forEach((item) => {
+        let bits = item.toString(2).match(/1/g);
+        bitForm[item] = bits ? bits.length : 0
+    })
 
- arrWithoutDash.forEach((item,index,array) =>{
-
-     if(index !== 0 && item!=='')
-        array[index] = array[index][0].toUpperCase() + array[index].slice(1);
- });
- 
- let arrWithoutEmptyElement = arrWithoutDash.filter((item,index,array) => item === "" ? false : true);
- return arrWithoutEmptyElement.join('');
+    return arr.sort((a, b) => {
+        return (bitForm[a] === bitForm[b]) ? a - b : bitForm[a] - bitForm[b]
+    });
 }
 
 ```
@@ -58,15 +57,18 @@ function camelize (str) {
 
 ### WORKING EXPERIENCE
 
-[project on github](https://nikolaykovzik.github.io/rsschool-cv/cv)
+* [Movie search](https://rolling-scopes-school.github.io/nikolaykovzik-JSFEPRESCHOOL/movie-app/)
+* [Photographer website](https://rolling-scopes-school.github.io/nikolaykovzik-JSFEPRESCHOOL/portfolio/)
+* [Space Invaders](https://rolling-scopes-school.github.io/nikolaykovzik-JSFEPRESCHOOL/SpaceInvaders/)
 
 *******
 
 ### EDUCATION 
 
-* Belarussian State University of Informatics and Radioelectronics, Calculating Machines System and Networks faculty, fifth course of study
+* graduated from the 4th year of Belarussian State University of Informatics and Radioelectronics, Calculating Machines System and Networks faculty
 * HTML Academy trainings
-* RS Schools Course «JavaScript/Front-end Stage 0» (in progress)
+* RS Schools Course «JavaScript/Front-end Stage 0»
+* RS Schools Course «JavaScript/Front-end Stage 1» (in progress)
 
 *******
 
