@@ -12,7 +12,6 @@
 * **Telegram -** @theroofisonfire
 * **E-mail -** nikolay.kovzik@mail.ru
 
-[GitHub](https://github.com/NikolayKovzik)
 
 *******
 
@@ -57,13 +56,16 @@ Array.prototype.map = function (fn) {
 * [Photographer website](https://rolling-scopes-school.github.io/nikolaykovzik-JSFEPRESCHOOL/portfolio/)
 * [Space Invaders](https://rolling-scopes-school.github.io/nikolaykovzik-JSFEPRESCHOOL/SpaceInvaders/)
 * [Shelter](https://rolling-scopes-school.github.io/nikolaykovzik-JSFE2022Q1/shelter/pages/)
+
 **Interview projects**
 * [Currency Converter](https://nikolaykovzik.github.io/currency-converter/)
 * [Tag Creator](https://nikolaykovzik.github.io/TagCreator/pages/)
-**joint freelance project**
+
+**Joint freelance project**
 * [Content for Market Places](https://ishah148.github.io/Farba/pages/)
 
 **[My GitHub](https://github.com/NikolayKovzik)**
+
 *******
 
 ### EDUCATION 
