@@ -96,7 +96,7 @@
                     Graduated from the 4th year of Belarussian State University of Informatics and Radioelectronics, Calculating Machines System and Networks faculty.
                     HTML Academy trainings is completed.
                     RS Schools Course «JavaScript/Front-end Stage 0» is completed.
-                    RS Schools Course «JavaScript/Front-end Stage 1» (in progress) 
+                    RS Schools Course «JavaScript/Front-end Stage 1» is completed. 
                   </p>
               </section>
              
@@ -112,23 +112,14 @@
               <section id="code-example"> 
                 <h2 class="code-header">Code Example</h2>
               <pre><code>
-  function camelize (str) {
-    let arrWithoutDash = str.split("-");
-    
-    arrWithoutDash.forEach((item,index,array)=> {
-      if(index !== 0 && item!=='') {
-          array[index] = array[index][0].toUpperCase(); 
-          array[index] += array[index].slice(1);
-      }
-    });
-    
-    let result = arrWithoutDash.filter((item)=>{
-      if(item === "")
-        return false;
-        else return true;
-    });
-    return result.join('');
-    }
+
+                
+        Array.prototype.map = function (fn) {
+          return this.reduce((resArr, item) => {
+            resArr.push(fn(item));
+            return resArr;
+          }, [])
+        }
           </code></pre>
                   </section> 
 
@@ -137,6 +128,10 @@
                     <p><a href="https://rolling-scopes-school.github.io/nikolaykovzik-JSFEPRESCHOOL/movie-app/">Movie search</a></p>
                     <p><a href="https://rolling-scopes-school.github.io/nikolaykovzik-JSFEPRESCHOOL/portfolio/">Photographer website</a></p>
                     <p><a href="https://rolling-scopes-school.github.io/nikolaykovzik-JSFEPRESCHOOL/SpaceInvaders/">Space Invaders</a></p>
+                    <p><a href="https://rolling-scopes-school.github.io/nikolaykovzik-JSFE2022Q1/shelter/pages/">Shelter</a></p>
+                    <p><a href="https://nikolaykovzik.github.io/currency-converter/">Currency Converter</a></p>
+                    <p><a href="https://nikolaykovzik.github.io/TagCreator/pages/">Tag Creator</a></p>
+                    <p><a href="https://ishah148.github.io/Farba/pages/">Content for Market Places</a></p>
                 </section>
                 </main>
 
