@@ -12,12 +12,14 @@
 * **Telegram -** @theroofisonfire
 * **E-mail -** nikolay.kovzik@mail.ru
 
+[GitHub](https://github.com/NikolayKovzik)
+
 *******
 
 ### ABOUT MYSELF
 
-My name is Nikolay. I am 25 years  old. I'm a patient, ambitious and hardworking person, hungry for knowledge and new achievements. 
-I don't have any working experience in the information technology sphere, but i have a massive desire to fill in this gap. My goal is to find my first job in IT and develop as a professional.
+My name is Nikolay. I am 25 years  old. I'm a patient, ambitious and hardworking person, hungry for knowledge and new achievements. I don't have any working experience in the IT sphere, but i have a massive desire to fill in this gap. I think I am team player. I try to give correct feedbacks to people with whom I interact, and try to avoid misunderstandings. I know how to build constructive dialogue, and I can listen and hear. Also I am an motivated, determined and target-oriented person.
+My goal is to find my first job in IT and develop as a professional.
 
 
 *******
@@ -26,29 +28,22 @@ I don't have any working experience in the information technology sphere, but i 
 
 * **HTML5**
 * **CSS3**
-* **JavaScript basics**
-* **Figma**
+* **JavaScript**
+* **SCSS**
+* **BEM**
 * **Git**
-* **VS Code**
+* **Figma**
 
 *******
 
 ### CODE EXAMPLE
 
-*A function that takes a string and returns a string with capitalized first letters of words*
-
 ```
-
-function sortByBit(arr) {
-    let bitForm = {};
-    arr.forEach((item) => {
-        let bits = item.toString(2).match(/1/g);
-        bitForm[item] = bits ? bits.length : 0
-    })
-
-    return arr.sort((a, b) => {
-        return (bitForm[a] === bitForm[b]) ? a - b : bitForm[a] - bitForm[b]
-    });
+Array.prototype.map = function (fn) {
+  return this.reduce((resArr, item) => {
+    resArr.push(fn(item));
+    return resArr;
+  }, [])
 }
 
 ```
@@ -57,10 +52,18 @@ function sortByBit(arr) {
 
 ### WORKING EXPERIENCE
 
+**Training projects**
 * [Movie search](https://rolling-scopes-school.github.io/nikolaykovzik-JSFEPRESCHOOL/movie-app/)
 * [Photographer website](https://rolling-scopes-school.github.io/nikolaykovzik-JSFEPRESCHOOL/portfolio/)
 * [Space Invaders](https://rolling-scopes-school.github.io/nikolaykovzik-JSFEPRESCHOOL/SpaceInvaders/)
+* [Shelter](https://rolling-scopes-school.github.io/nikolaykovzik-JSFE2022Q1/shelter/pages/)
+**Interview projects**
+* [Currency Converter](https://nikolaykovzik.github.io/currency-converter/)
+* [Tag Creator](https://nikolaykovzik.github.io/TagCreator/pages/)
+**joint freelance project**
+* [Content for Market Places](https://ishah148.github.io/Farba/pages/)
 
+**[My GitHub](https://github.com/NikolayKovzik)**
 *******
 
 ### EDUCATION 
@@ -68,7 +71,7 @@ function sortByBit(arr) {
 * graduated from the 4th year of Belarussian State University of Informatics and Radioelectronics, Calculating Machines System and Networks faculty
 * HTML Academy trainings
 * RS Schools Course «JavaScript/Front-end Stage 0»
-* RS Schools Course «JavaScript/Front-end Stage 1» (in progress)
+* RS Schools Course «JavaScript/Front-end Stage 1»
 
 *******
 
